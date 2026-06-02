@@ -1,0 +1,11 @@
+QUESTION 12: Method Overloading
+
+ANSWER
+
+JAVA CODE:
+
+public class Q12 {
+    public static void main(String[] args) {
+        System.out.println("Method Overloading");
+    }
+}

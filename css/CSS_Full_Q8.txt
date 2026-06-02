@@ -1,0 +1,26 @@
+QUESTION 8
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 8 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 8 */
+
+.eventCard{
+border:2px solid black;
+padding:20px;
+margin:20px;
+}
+.hidden{visibility:hidden;}
+.none{display:none;}

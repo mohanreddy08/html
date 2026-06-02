@@ -1,0 +1,11 @@
+QUESTION 10: Number Guessing Game
+
+ANSWER
+
+JAVA CODE:
+
+public class Q10 {
+    public static void main(String[] args) {
+        System.out.println("Number Guessing Game");
+    }
+}

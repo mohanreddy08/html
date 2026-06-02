@@ -1,0 +1,11 @@
+QUESTION 18: Inheritance Example
+
+ANSWER
+
+JAVA CODE:
+
+public class Q18 {
+    public static void main(String[] args) {
+        System.out.println("Inheritance Example");
+    }
+}

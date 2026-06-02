@@ -1,0 +1,11 @@
+QUESTION 3: Even or Odd Checker
+
+ANSWER
+
+JAVA CODE:
+
+public class Q3 {
+    public static void main(String[] args) {
+        System.out.println("Even or Odd Checker");
+    }
+}

@@ -1,0 +1,11 @@
+QUESTION 19: Interface Implementation
+
+ANSWER
+
+JAVA CODE:
+
+public class Q19 {
+    public static void main(String[] args) {
+        System.out.println("Interface Implementation");
+    }
+}

@@ -1,0 +1,11 @@
+QUESTION 2: Simple Calculator
+
+ANSWER
+
+JAVA CODE:
+
+public class Q2 {
+    public static void main(String[] args) {
+        System.out.println("Simple Calculator");
+    }
+}

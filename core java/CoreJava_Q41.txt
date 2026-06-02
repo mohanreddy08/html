@@ -1,0 +1,11 @@
+QUESTION 41: Executor Service and Callable
+
+ANSWER
+
+JAVA CODE:
+
+public class Q41 {
+    public static void main(String[] args) {
+        System.out.println("Executor Service and Callable");
+    }
+}

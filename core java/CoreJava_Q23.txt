@@ -1,0 +1,11 @@
+QUESTION 23: File Reading
+
+ANSWER
+
+JAVA CODE:
+
+public class Q23 {
+    public static void main(String[] args) {
+        System.out.println("File Reading");
+    }
+}

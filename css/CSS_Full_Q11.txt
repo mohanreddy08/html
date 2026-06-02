@@ -1,0 +1,22 @@
+QUESTION 11
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 11 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 11 */
+
+body{background:#f0f0f0;}
+.container{width:80%;margin:auto;}
+h1{color:blue;}

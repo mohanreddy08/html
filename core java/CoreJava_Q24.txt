@@ -1,0 +1,11 @@
+QUESTION 24: ArrayList Example
+
+ANSWER
+
+JAVA CODE:
+
+public class Q24 {
+    public static void main(String[] args) {
+        System.out.println("ArrayList Example");
+    }
+}

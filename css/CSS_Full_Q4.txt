@@ -1,0 +1,25 @@
+QUESTION 4
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 4 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 4 */
+
+body{
+background:#f5f5f5 url(bg.jpg);
+}
+.header{
+background:linear-gradient(to right,blue,skyblue);
+}

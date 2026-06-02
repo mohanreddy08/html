@@ -1,0 +1,11 @@
+QUESTION 33: Transaction Handling in JDBC
+
+ANSWER
+
+JAVA CODE:
+
+public class Q33 {
+    public static void main(String[] args) {
+        System.out.println("Transaction Handling in JDBC");
+    }
+}

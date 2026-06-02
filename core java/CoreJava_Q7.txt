@@ -1,0 +1,11 @@
+QUESTION 7: Type Casting Example
+
+ANSWER
+
+JAVA CODE:
+
+public class Q7 {
+    public static void main(String[] args) {
+        System.out.println("Type Casting Example");
+    }
+}

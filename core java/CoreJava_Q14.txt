@@ -1,0 +1,11 @@
+QUESTION 14: Array Sum and Average
+
+ANSWER
+
+JAVA CODE:
+
+public class Q14 {
+    public static void main(String[] args) {
+        System.out.println("Array Sum and Average");
+    }
+}

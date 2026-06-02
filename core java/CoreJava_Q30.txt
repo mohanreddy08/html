@@ -1,0 +1,11 @@
+QUESTION 30: Pattern Matching for switch
+
+ANSWER
+
+JAVA CODE:
+
+public class Q30 {
+    public static void main(String[] args) {
+        System.out.println("Pattern Matching for switch");
+    }
+}

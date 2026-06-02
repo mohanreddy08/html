@@ -1,0 +1,28 @@
+QUESTION 1
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 1 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 1 */
+
+<h1 style="color:red;">Heading</h1>
+
+body{
+background:#f0f0f0;
+}
+
+.header{
+color:blue;
+}

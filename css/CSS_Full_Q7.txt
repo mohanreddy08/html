@@ -1,0 +1,26 @@
+QUESTION 7
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 7 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 7 */
+
+table{border-collapse:collapse;}
+th,td{
+border:1px solid black;
+padding:10px;
+text-align:center;
+}
+tr:nth-child(even){background:#eee;}

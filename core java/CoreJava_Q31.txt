@@ -1,0 +1,11 @@
+QUESTION 31: Basic JDBC Connection
+
+ANSWER
+
+JAVA CODE:
+
+public class Q31 {
+    public static void main(String[] args) {
+        System.out.println("Basic JDBC Connection");
+    }
+}

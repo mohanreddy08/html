@@ -1,0 +1,11 @@
+QUESTION 6: Data Type Demonstration
+
+ANSWER
+
+JAVA CODE:
+
+public class Q6 {
+    public static void main(String[] args) {
+        System.out.println("Data Type Demonstration");
+    }
+}

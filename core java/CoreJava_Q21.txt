@@ -1,0 +1,11 @@
+QUESTION 21: Custom Exception
+
+ANSWER
+
+JAVA CODE:
+
+public class Q21 {
+    public static void main(String[] args) {
+        System.out.println("Custom Exception");
+    }
+}

@@ -1,0 +1,24 @@
+QUESTION 3
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 3 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 3 */
+
+*{margin:0;padding:0;}
+h2{color:green;}
+#mainHeader{background:blue;color:white;}
+.eventCard{border:1px solid black;padding:10px;}
+h3,p{font-family:Arial;}

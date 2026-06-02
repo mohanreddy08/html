@@ -1,0 +1,25 @@
+QUESTION 5
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 5 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 5 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+font-family:Poppins;
+font-size:16px;
+}

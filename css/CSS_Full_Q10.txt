@@ -1,0 +1,24 @@
+QUESTION 10
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 10 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 10 */
+
+@media screen and (max-width:768px){
+nav a{display:block;}
+img{width:50%;}
+body{font-size:14px;}
+}

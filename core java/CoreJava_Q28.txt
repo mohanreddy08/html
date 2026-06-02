@@ -1,0 +1,11 @@
+QUESTION 28: Stream API
+
+ANSWER
+
+JAVA CODE:
+
+public class Q28 {
+    public static void main(String[] args) {
+        System.out.println("Stream API");
+    }
+}

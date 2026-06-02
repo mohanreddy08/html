@@ -1,0 +1,11 @@
+QUESTION 34: Create and Use Java Modules
+
+ANSWER
+
+JAVA CODE:
+
+public class Q34 {
+    public static void main(String[] args) {
+        System.out.println("Create and Use Java Modules");
+    }
+}

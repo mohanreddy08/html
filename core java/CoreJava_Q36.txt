@@ -1,0 +1,11 @@
+QUESTION 36: HTTP Client API
+
+ANSWER
+
+JAVA CODE:
+
+public class Q36 {
+    public static void main(String[] args) {
+        System.out.println("HTTP Client API");
+    }
+}

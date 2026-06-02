@@ -1,0 +1,11 @@
+QUESTION 20: Try-Catch Example
+
+ANSWER
+
+JAVA CODE:
+
+public class Q20 {
+    public static void main(String[] args) {
+        System.out.println("Try-Catch Example");
+    }
+}

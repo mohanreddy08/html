@@ -1,0 +1,23 @@
+QUESTION 6
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Question 6 Demo</h1>
+<div class="eventCard">Sample Content</div>
+</body>
+</html>
+
+CSS:
+/* CSS related to Question 6 */
+
+a:link{color:blue;}
+a:hover{color:red;}
+a:active{color:green;}
+a:visited{color:purple;}

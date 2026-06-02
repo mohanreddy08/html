@@ -1,0 +1,11 @@
+QUESTION 32: Insert and Update Operations in JDBC
+
+ANSWER
+
+JAVA CODE:
+
+public class Q32 {
+    public static void main(String[] args) {
+        System.out.println("Insert and Update Operations in JDBC");
+    }
+}

@@ -1,0 +1,11 @@
+QUESTION 35: TCP Client-Server Chat
+
+ANSWER
+
+JAVA CODE:
+
+public class Q35 {
+    public static void main(String[] args) {
+        System.out.println("TCP Client-Server Chat");
+    }
+}
