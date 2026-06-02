@@ -1,0 +1,29 @@
+QUESTION 9
+
+ANSWER
+
+HTML:
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Question 9</title>
+<script src="main.js"></script>
+</head>
+<body>
+
+<h2>JavaScript Demo 9</h2>
+
+</body>
+</html>
+
+JAVASCRIPT:
+fetch("data.json")
+.then(response=>response.json())
+.then(data=>console.log(data))
+.catch(error=>console.log(error));
+
+async function loadData(){
+const response=await fetch("data.json");
+const data=await response.json();
+console.log(data);
+}

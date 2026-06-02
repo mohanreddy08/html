@@ -1,0 +1,10 @@
+QUESTION 12: Event with Maximum Sessions
+
+ANSWER
+
+SQL QUERY:
+SELECT e.title,COUNT(s.session_id)
+FROM Events e JOIN Sessions s
+ON e.event_id=s.event_id
+GROUP BY e.event_id
+ORDER BY COUNT(*) DESC;

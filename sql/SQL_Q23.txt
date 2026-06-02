@@ -1,0 +1,9 @@
+QUESTION 23: Registration Trends
+
+ANSWER
+
+SQL QUERY:
+SELECT MONTH(registration_date) month,
+COUNT(*)
+FROM Registrations
+GROUP BY MONTH(registration_date);

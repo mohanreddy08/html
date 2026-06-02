@@ -1,0 +1,9 @@
+QUESTION 17: Multi-Session Speakers
+
+ANSWER
+
+SQL QUERY:
+SELECT speaker_name,COUNT(*)
+FROM Sessions
+GROUP BY speaker_name
+HAVING COUNT(*)>1;

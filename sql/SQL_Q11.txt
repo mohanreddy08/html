@@ -1,0 +1,8 @@
+QUESTION 11: Daily New User Count
+
+ANSWER
+
+SQL QUERY:
+SELECT registration_date,COUNT(*) users
+FROM Users
+GROUP BY registration_date;

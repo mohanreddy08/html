@@ -1,0 +1,11 @@
+QUESTION 14: Most Registered Events
+
+ANSWER
+
+SQL QUERY:
+SELECT e.title,COUNT(r.registration_id) total
+FROM Events e JOIN Registrations r
+ON e.event_id=r.event_id
+GROUP BY e.event_id
+ORDER BY total DESC
+LIMIT 3;

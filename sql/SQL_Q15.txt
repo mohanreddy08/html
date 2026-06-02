@@ -1,0 +1,10 @@
+QUESTION 15: Event Session Time Conflict
+
+ANSWER
+
+SQL QUERY:
+SELECT s1.title,s2.title
+FROM Sessions s1, Sessions s2
+WHERE s1.event_id=s2.event_id
+AND s1.session_id<s2.session_id
+AND s1.end_time>s2.start_time;

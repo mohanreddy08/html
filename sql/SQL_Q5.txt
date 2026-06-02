@@ -1,0 +1,10 @@
+QUESTION 5: Most Active Cities
+
+ANSWER
+
+SQL QUERY:
+SELECT city,COUNT(DISTINCT user_id) registrations
+FROM Users
+GROUP BY city
+ORDER BY registrations DESC
+LIMIT 5;

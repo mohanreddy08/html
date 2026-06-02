@@ -1,0 +1,11 @@
+QUESTION 21: Top Feedback Providers
+
+ANSWER
+
+SQL QUERY:
+SELECT u.full_name,COUNT(*) total_feedbacks
+FROM Users u JOIN Feedback f
+ON u.user_id=f.user_id
+GROUP BY u.user_id
+ORDER BY total_feedbacks DESC
+LIMIT 5;

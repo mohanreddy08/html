@@ -1,0 +1,10 @@
+QUESTION 24: Average Session Duration per Event
+
+ANSWER
+
+SQL QUERY:
+SELECT e.title,
+AVG(TIMESTAMPDIFF(MINUTE,start_time,end_time))
+FROM Events e JOIN Sessions s
+ON e.event_id=s.event_id
+GROUP BY e.event_id;
