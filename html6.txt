@@ -1,0 +1,55 @@
+6. Handle blur, change, click, double-click, and keyboard events.
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validatePhone(){
+alert("Phone Validated");
+}
+
+function showFee(){
+var fee=document.getElementById("event").value;
+document.getElementById("fee").innerHTML=fee;
+}
+
+function submitForm(){
+alert("Feedback Submitted");
+}
+
+function enlarge(img){
+img.style.width="300px";
+}
+
+function countChar(){
+document.getElementById("count").innerHTML=
+document.getElementById("feedback").value.length;
+}
+</script>
+</head>
+
+<body>
+
+<input type="text" onblur="validatePhone()" placeholder="Phone"><br><br>
+
+<select id="event" onchange="showFee()">
+<option value="100">Music</option>
+<option value="200">Sports</option>
+</select>
+
+<p>Fee: <span id="fee"></span></p>
+
+<button onclick="submitForm()">Submit</button>
+
+<br><br>
+
+<img src="img1.jpg" width="150" ondblclick="enlarge(this)">
+
+<br><br>
+
+<textarea id="feedback" onkeyup="countChar()"></textarea>
+
+<p>Characters: <span id="count">0</span></p>
+
+</body>
+</html>

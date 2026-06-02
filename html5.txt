@@ -1,0 +1,45 @@
+5. Create an event registration form with validation.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form{
+width:300px;
+padding:20px;
+border:1px solid black;
+}
+</style>
+
+<script>
+function confirmMsg(){
+document.getElementById("out").value="Registration Successful";
+}
+</script>
+</head>
+
+<body>
+
+<form onsubmit="confirmMsg();return false;">
+<input type="text" placeholder="Name" required autofocus><br><br>
+
+<input type="email" placeholder="Email" required><br><br>
+
+<input type="date" required><br><br>
+
+<select required>
+<option>Music</option>
+<option>Sports</option>
+<option>Dance</option>
+</select><br><br>
+
+<textarea placeholder="Message"></textarea><br><br>
+
+<input type="submit">
+
+<output id="out"></output>
+
+</form>
+
+</body>
+</html>

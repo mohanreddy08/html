@@ -1,0 +1,37 @@
+8. Use localStorage and sessionStorage.
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function savePref(){
+localStorage.setItem(
+"event",
+document.getElementById("event").value
+);
+}
+
+function loadPref(){
+document.getElementById("event").value=
+localStorage.getItem("event");
+}
+
+function clearPref(){
+localStorage.clear();
+sessionStorage.clear();
+}
+</script>
+</head>
+
+<body onload="loadPref()">
+
+<select id="event" onchange="savePref()">
+<option>Music</option>
+<option>Sports</option>
+<option>Dance</option>
+</select>
+
+<button onclick="clearPref()">Clear Preferences</button>
+
+</body>
+</html>

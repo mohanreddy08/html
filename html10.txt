@@ -1,0 +1,23 @@
+10.Write a simple script for debugging in Chrome DevTools.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var x=10;
+var y=20;
+var z=x+y;
+
+console.log(x);
+console.log(y);
+console.log(z);
+</script>
+</head>
+
+<body>
+
+<h2>Open Console to Debug</h2>
+
+</body>
+</html>

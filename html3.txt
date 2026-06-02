@@ -1,0 +1,28 @@
+3. Create a welcome banner using id, class, and inline styling.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#welcomeBanner{
+background:blue;
+color:white;
+padding:20px;
+}
+.highlight{
+background:yellow;
+}
+</style>
+</head>
+<body>
+
+<div id="welcomeBanner">
+Welcome User
+<span style="color:red;font-weight:bold;">Special Offer</span>
+</div>
+
+<p class="highlight">Upcoming Event</p>
+
+</body>
+</html>

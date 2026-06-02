@@ -1,0 +1,53 @@
+4.Display event images in a table.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.imgStyle{
+border:2px solid black;
+width:150px;
+height:100px;
+}
+</style>
+</head>
+<body>
+
+<table border="1">
+<tr>
+<td>
+<img src="img1.jpg" alt="Event1" title="Event1" class="imgStyle">
+<p>Music Show</p>
+</td>
+
+<td>
+<img src="img2.jpg" alt="Event2" title="Event2" class="imgStyle">
+<p>Food Fest</p>
+</td>
+
+<td>
+<img src="img3.jpg" alt="Event3" title="Event3" class="imgStyle">
+<p>Sports Meet</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="img4.jpg" alt="Event4" title="Event4" class="imgStyle">
+<p>Dance Event</p>
+</td>
+
+<td>
+<img src="img5.jpg" alt="Event5" title="Event5" class="imgStyle">
+<p>Art Expo</p>
+</td>
+
+<td>
+<img src="img6.jpg" alt="Event6" title="Event6" class="imgStyle">
+<p>Book Fair</p>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

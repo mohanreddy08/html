@@ -1,0 +1,27 @@
+7. Insert a video and display a message when ready to play.
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function ready(){
+document.getElementById("msg").innerHTML=
+"Video ready to play";
+}
+
+window.onbeforeunload=function(){
+return "Leave page?";
+}
+</script>
+</head>
+
+<body>
+
+<video controls width="400" oncanplay="ready()">
+<source src="video.mp4" type="video/mp4">
+</video>
+
+<p id="msg"></p>
+
+</body>
+</html>

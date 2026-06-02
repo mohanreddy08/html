@@ -1,0 +1,43 @@
+9.Get user location using Geolocation API.
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function findLocation(){
+
+navigator.geolocation.getCurrentPosition(
+showPosition,
+showError,
+{
+enableHighAccuracy:true,
+timeout:5000
+}
+);
+
+}
+
+function showPosition(position){
+document.getElementById("loc").innerHTML=
+position.coords.latitude+
+","+
+position.coords.longitude;
+}
+
+function showError(error){
+document.getElementById("loc").innerHTML=
+error.message;
+}
+</script>
+</head>
+
+<body>
+
+<button onclick="findLocation()">
+Find Nearby Events
+</button>
+
+<p id="loc"></p>
+
+</body>
+</html>
